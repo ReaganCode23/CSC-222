@@ -1,0 +1,24 @@
+    1  history
+    2  cd ..
+    3  cd jose-reagan-lab1/
+    4  mkdir my_python_files
+    5  ls
+    6  cd my_python_files/
+    7  wget https://raw.githubusercontent.com/jcoriell/download/main/hello_you.py
+    8  ls
+    9  python3 hello_you.py 
+   10  nano hello_you.py 
+   11  python3 hello_you.py 
+   12  nano hello_you.py 
+   13  python3 hello_you.py
+   14  nano hello_you.py 
+   15  python3 hello_you.py
+   16  nano hello_you.py 
+   17  python3 hello_you.py
+   18  cd ..
+   19  touch last-first-2.txt
+   20  rm last-fist-2.txt
+   21  rm last-first-2.txt 
+   22  ls
+   23  touch jose-reagan-2.txt
+   24  history > jose-reagan-2.txt

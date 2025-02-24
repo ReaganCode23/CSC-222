@@ -1,0 +1,127 @@
+    1  shutdown
+    2  sudo apt install build-essential
+    3  shutdown
+    4  sudo apt install vim
+    5  cd ..
+    6  ls
+    7  ls -a
+    8  ls .
+    9  cd ..
+   10  ls
+   11  ls ..
+   12  ls -alh
+   13  pwd
+   14  cd ~
+   15  pwd
+   16  mkdir 
+   17  mkdir Documents
+   18  ls
+   19  ls -alh
+   20  cd Documents/^C
+   21  cd Documents
+   22  touch HelloWorld.txt
+   23  ls
+   24  man mkDir
+   25  ls
+   26  rm HelloWorld.txt
+   27  ls
+   28  rmdir Documents
+   29  cd ..
+   30  rmdir Documents
+   31  mkdir Docs
+   32  cd Docs
+   33  echo Hello > HelloWorld.txt
+   34  ls
+   35  cat HelloWorld.txt 
+   36  echo Hello
+   37  more HelloWorld.txt
+   38  cp HelloWorld2.txt
+   39  cp HelloWorld.txt HelloWorld2.txt
+   40  ls
+   41  history
+   42  man history
+   43  wget https://www.gutenburg.org/cache/epub/98/pg98.txt
+   44  wget https://www.gutenberg.org/cache/epub/98/pg98.txt
+   45  cd book
+   46  mkdir book
+   47  mv pg98.txt book/pg98.txt
+   48  cd book
+   49  more pg98.txt
+   50  mv pg98.txt a-tale-of-two-cities
+   51  ls
+   52  cat a-tale
+   53  cat a-tale-of-two-cities 
+   54  cd ..
+   55  touch HelloWorld.py
+   56  ls
+   57  vim HelloWorld.py
+   58  cat HelloWorld.py
+   59  nano HelloWorld.py
+   60  cat HelloWorld.py
+   61  ls -alh
+   62  chmod o+x HelloWorld.py
+   63  ls -alh
+   64  chmod o-x HelloWorld.py
+   65  ls -alh
+   66  chmod 671 HelloWorld.py
+   67  ls -alh
+   68  chmod 674 HelloWorld.py
+   69  ls -alh
+   70  echo "testing 1 2 3" > test1.txt
+   71  ls
+   72  grep testing test1.txt
+   73  wget https://raw.gethubusercontent.com/jcoriell/download/main/regex-sample.txt
+   74  wget https://raw.gethubusercontent.com/jcoriell/download/main/regrex-sample.txt
+   75  wget https://raw.gethubusercontent.com/jcoriel/download/main/regex-sample.txt
+   76  wget https://raw.gethubusercontent.com/jcoriell/download/main/regex-sample.txt
+   77  shutdown
+   78  history
+   79  cd ..
+   80  cd jose-reagan-lab1/
+   81  mkdir my_python_files
+   82  ls
+   83  cd my_python_files/
+   84  wget https://raw.githubusercontent.com/jcoriell/download/main/hello_you.py
+   85  ls
+   86  python3 hello_you.py 
+   87  nano hello_you.py 
+   88  python3 hello_you.py 
+   89  nano hello_you.py 
+   90  python3 hello_you.py
+   91  nano hello_you.py 
+   92  python3 hello_you.py
+   93  nano hello_you.py 
+   94  python3 hello_you.py
+   95  cd ..
+   96  touch last-first-2.txt
+   97  rm last-fist-2.txt
+   98  rm last-first-2.txt 
+   99  ls
+  100  touch jose-reagan-2.txt
+  101  history > jose-reagan-2.txt
+  102  ls
+  103  cat jose-reagan-2.txt 
+  104  history c
+  105  hisotry -c
+  106  mkdir my-favorite-reads
+  107  ls
+  108  cd my-favorite-reads/
+  109  wget https://www.gutenberg.org/cache/epub/11/pg11.txt
+  110  ls
+  111  mv pg11.txt alice.txt
+  112  ls
+  113  ls -l alice.txt
+  114  ls -l
+  115  shutdown
+  116  ls
+  117  cd jose-reagan-lab1/
+  118  ls
+  119  cd my-favorite-reads/
+  120  ls
+  121  ls -l
+  122  chmod 624 alice.txt
+  123  ls -l
+  124  grep Cheshire alice.txt 
+  125  cd ..
+  126  ls
+  127  touch jose-reagan-3.txt && history > jose-reagan-3.txt

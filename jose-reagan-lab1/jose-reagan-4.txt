@@ -1,0 +1,81 @@
+    1  history
+    2  mkdir logs
+    3  ls
+    4  touch logfile.txt
+    5  mv logfile.txt logs/
+    6  ls
+    7  cd logs
+    8  ls
+    9  nano logfile.txt
+   10  cat logfile.txt 
+   11  touch no-errors.txt && grep -v "ERROR" logs.txt > no-errors.txt
+   12  ls
+   13  touch no-errors.txt && grep -v "ERROR" logfile.txt > no-errors.txt
+   14  cat no-errors.txt 
+   15  touch all-timestamps.txt && grep ^\d.{19}\d$ logfile.txt > all-timestamps.txt
+   16  ls
+   17  cat all-timestamps.txt 
+   18  grep ^\d.{18}\d$ logfile.txt
+   19  grep ^\d...\d$ logfile.txt
+   20  grep \d logfile.txt
+   21  grep "\d"
+   22  grep "\d" logfile.txt 
+   23  grep '\d{2}' logfile.txt 
+   24  grep \d{2} logfile.txt 
+   25  grep " \d{2}"  logfile.txt 
+   26  grep -P " \d{2}"  logfile.txt 
+   27  touch all-timestamps.txt && grep -P ^\d.{19}\d$ logfile.txt > all-timestamps.txt
+   28  cat all-timestamps.txt 
+   29  touch all-timestamps.txt && grep -P "^\d.{18}\d$" logfile.txt > all-timestamps.txt
+   30  cat all-timestamps.txt 
+   31  grep -P "^\d" logfile.txt
+   32  grep -P "^\d.{19}\d$" logfile.txt
+   33  grep -P "^\d".{19}"\d$" logfile.txt
+   34  grep -P "^\d".{18}"\d$" logfile.txt
+   35  grep -P "^\d".{3}"\d$" logfile.txt
+   36  grep  "^\d".{3}"\d$" logfile.txt
+   37  grep -P "^\d.\d$" logfile.txt
+   38  grep -P "^\d" logfile.txt
+   39  grep -P "^\d.$" logfile.txt
+   40  grep -P "^\d" logfile.txt
+   41  grep -P "^\d".$ logfile.txt
+   42  grep -P "^\d\d$" logfile.txt
+   43  grep -P ^\d logfile.txt
+   44* grep -P "^\d"".{19}""\d" logfile.txt
+   45  man grep
+   46  help--grep
+   47  grep--help
+   48  grep -- help
+   49  grep--help
+   50  grep --help
+   51  more grep --help
+   52  grep -P "\d(4)-\d(2)-\d(4) \d(2):\d(2):\d(2)" logfile.txt > all-timestamps.txt 
+   53  cat all-timestamps.txt 
+   54  grep -oP "\d(4)-\d(2)-\d(4) \d(2):\d(2):\d(2)" logfile.txt > all-timestamps.txt 
+   55  cat all-timestamps.txt 
+   56  grep -P "\d{4}-\d{2}-\d{4} \d{2}:\d{2}:\d{2}" logfile.txt > all-timestamps.txt 
+   57  cat all-timestamps.txt 
+   58  grep -oP "\d{4}-\d{2}-\d{4} \d{2}:\d{2}:\d{2}" logfile.txt > all-timestamps.txt 
+   59  cat all-timestamps.txt 
+   60  history
+   61  touch good-timestamps.txt $$ grep -oP "\d{4}-\d{2}-\d{4} \d{2}:\d{2}:\d{2}" -v "ERROR" logfile.txt > good-timestamps.txt 
+   62  touch good-timestamps.txt $$ grep -oP "\d{4}-\d{2}-\d{4} \d{2}:\d{2}:\d{2}" logfile.txt | grep -v "ERROR"  > good-timestamps.txt 
+   63  touch good-timestamps.txt && grep -oP "\d{4}-\d{2}-\d{4} \d{2}:\d{2}:\d{2}" logfile.txt | grep -v "ERROR"  > good-timestamps.txt 
+   64  touch good-timestamps.txt && grep -oP "\d{4}-\d{2}-\d{4} \d{2}:\d{2}:\d{2}" logfile.txt | grep -v "ERROR"  > good-timestamps.txt cat good-timestamps.txt 
+   65  good-timestamps.txt
+   66  cat good-timestamps.txt 
+   67  touch good-timestamps.txt && grep -oP "\d{4}-\d{2}-\d{4} \d{2}:\d{2}:\d{2}" logfile.txt | grep -v "ERROR"  > good-timestamps.txt cat good-timestamps.txt 
+   68  touch good-timestamps.txt && grep -oP "\d{4}-\d{2}-\d{4} \d{2}:\d{2}:\d{2}" logfile.txt | grep -v "ERROR"  > good-timestamps.txt 
+   69  cat good-timestamps.txt 
+   70  ls
+   71  grep -oP "\d{4}-\d{2}-\d{4} \d{2}:\d{2}:\d{2}" logfile.txt | grep -v "ERROR"  > good-timestamps.txt 
+   72  cat good-timestamps.txt 
+   73  grep -oP "\d{4}-\d{2}-\d{4} \d{2}:\d{2}:\d{2}" logfile.txt | grep -v ERROR  > good-timestamps.txt 
+   74  cat good-timestamps.txt 
+   75  grep -oP "\d{4}-\d{2}-\d{4} \d{2}:\d{2}:\d{2}" logfile.txt | grep -v "ERROR" > good-timestamps.txt 
+   76  cat good-timestamps.txt 
+   77  grep -v "ERROR" logfile.txt | grep -oP "\d{4}-\d{2}-\d{4} \d{2}:\d{2}:\d{2}" > good-timestamps.txt 
+   78  cat good-timestamps.txt 
+   79  cd ..
+   80  touch jose-reagan-4.txt
+   81  history > jose-reagan-4.txt 

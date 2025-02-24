@@ -1,0 +1,69 @@
+    1  history
+    2  cd ..
+    3  mkdir filesystem-lab
+    4  ls
+    5  cd filesystem-lab/
+    6  touch problem-1.txt
+    7  ls
+    8  cd ..
+    9  ls
+   10  man ls
+   11  ls -s
+   12  echo ls -s < /filesystem-lab/problem-1.txt
+   13  echo ls -s < filesystem-lab/problem-1.txt
+   14  cd filesystem-lab/
+   15  ls
+   16  problem-1.txt
+   17  cat problem-1.txt
+   18  more problem-1.txt 
+   19  cd ..
+   20  ls
+   21  echo < echo ls -s > filesystem-lab/problem-1.txt
+   22  echo ls -s > filesystem-lab/problem-1.txt
+   23  cd filesystem-lab/
+   24  cat problem-1.txt 
+   25  echo problem-1.txt 
+   26  cd ..
+   27  echo 4 Docs 4 filesystem-lab 4 work > filesystem-lab/problem-1.txt 
+   28  rm filesystem-lab/
+   29  rmdr filesystem-lab
+   30  rmdr filesystem-lab/
+   31  rmdr filesystem-lab
+   32  ls
+   33  rmdir filesystem-lab
+   34  rm filesystem-lab/problem-1.txt | rmdir filesystem-lab
+   35  rm filesystem-lab/problem-1.txt && rmdir filesystem-lab
+   36* rmdir -r 
+   37  rmdir -r filesystem-lab/
+   38  rm -r filesystem-lab
+   39  ls
+   40  mkdir filesystem-lab
+   41  ls
+   42  cd filesystem-lab
+   43  touch problem1.txt
+   44  cd ..
+   45  ls -s
+   46  ls -s > filesystem-lab/problem1.txt 
+   47  cd filesystem-lab/
+   48  cat problem1.txt 
+   49  cd ..
+   50  rmdir -r filesystem-lab
+   51  rm -r filesystem-lab
+   52  ls
+   53  mkdir last-first-lab1
+   54  ls
+   55  cd last-first-lab1/
+   56  cd ..
+   57  rmdir last-first-lab1/
+   58  mkdir jose-reagan-lab1
+   59  ls
+   60  cd jose-reagan-lab1/
+   61  touch problem-1.txt
+   62* l
+   63  rm problem-1.txt 
+   64  touch jost-reagan-1.txt
+   65* rm jost
+   66  rm jost-reagan-1.txt 
+   67  touch jose-reagan-1.txt
+   68  ls
+   69  history > jose-reagan-1.txt 
